@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Geolocation</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--  -->
+        <!--    Document Title-->
+        <!-- =============================================-->
+    <title>Selfish Routing | The Map </title>
+        <!--  -->
+        <!--    Favicons-->
+        <!--    =============================================-->
+    <script src="assets/js/favicon.js"></script>
+    <meta name="theme-color" content="#ffffff">
+        <!--  -->
+        <!--    Stylesheets-->
+        <!--    =============================================-->
+        <!-- Default stylesheets-->
+    <link href="assets/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Template specific stylesheets-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,400i" rel="stylesheet">
+    <link href="assets/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/lib/iconsmind/iconsmind.css" rel="stylesheet">
+    <link href="assets/lib/css-hamburgers/dist/hamburgers.css" rel="stylesheet">
+    <link href="assets/lib/owl.carousel/dist/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/lib/owl.carousel/dist/assets/owl.theme.default.min.css" rel="stylesheet">
+        <!-- Main stylesheet and color file-->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/custom.css" rel="stylesheet"> 
+    <!-- Some of the style-->
+    <style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 600px;
+        width:960px;
+        margin-left:200px;
+        margin-top:100px;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+        #description {
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: 300;
+      }
+
+      #infowindow-content .title {
+        font-weight: bold;
+      }
+
+      #infowindow-content {
+        display: none;
+      }
+
+      #map #infowindow-content {
+        display: inline;
+      }
+
+      .pac-card {
+        margin: 10px 10px 0 0;
+        border-radius: 2px 0 0 2px;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        outline: none;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+        background-color: #fff;
+        font-family: Roboto;
+      }
+
+      #pac-container {
+        padding-bottom: 12px;
+        margin-right: 12px;
+      }
+
+      .pac-controls {
+        display: inline-block;
+        padding: 5px 11px;
+      }
+
+      .pac-controls label {
+        font-family: Roboto;
+        font-size: 13px;
+        font-weight: 300;
+      }
+
+      #pac-input {
+        background-color: #fff;
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: 300;
+        margin-left: 12px;
+        padding: 0 11px 0 13px;
+        text-overflow: ellipsis;
+        width: 400px;
+      }
+
+      #pac-input:focus {
+        border-color: #4d90fe;
+      }
+
+      #title {
+        color: #fff;
+        background-color: #4d90fe;
+        font-size: 25px;
+        font-weight: 500;
+        padding: 6px 12px;
+      }
+      #target {
+        width: 345px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <script src="assets/js/header.js"></script>
+
+    <!--<form method='post' id='report_form' enctype="form_data.php">
+            <div class='confirmation'><p>Your report has been filed and will be reviewed shortly.<br>Thank you for your contribution!</p></div>
+            <input name='latlng' type='hidden'/>
+            <input name='content' type='hidden'/>
+            <label>Add photographs of traffic excess in this location</label>
+            <div class='photos_container'>
+            <label class='pic_display' for='1' title='Select a photograph'>
+                <div class='list 1'><i class="fas fa-camera-retro"></i></div>
+            </label>
+            <input id='1' class='files' type='file' name='photo_1'/>
+            <i id='add_photograph' title='Add a photograph' class="fas fa-plus"></i>
+            <input type='hidden' name='nmbre_photos' value='1'/>
+            </div>
+            <input type='url' name='article_link' placeholder="Link to an article related to the problem"/>
+      <input name='email' type='email' placeholder='Your e-mail address' required/>
+            <label>Select tags that describe your problem</label>
+            <div id="tags">
+                    <label for='speeding'><input type='checkbox' class='tag' id='speeding' value='Speeding' name='tag_1'/><div>Speeding</div></label>
+                    <label for='school_zone'><input type='checkbox' class='tag' id='school_zone' value='School zone' name='tag_2'/><div>School zone</div></label>
+                    <label for='traffic_noise'><input type='checkbox' class='tag' id='traffic_noise' value='Traffic Noise' name='tag_3'/><div>Traffic Noise</div></label>
+                    <label for='children_play_area'><input type='checkbox' class='tag' id='children_play_area' id='children_play_area' value="Children's play area" name='tag_4'/><div>Children's play area</div></label>
+                    <label for='increased_pollution'><input type='checkbox' class='tag' id='increased_pollution' value='Increased pollution' name='tag_6'/><div>Increased pollution</div></label>
+                    <label for='traffic_excess'><input type='checkbox' class='tag' id='traffic_excess' value='Traffic excess' name='tag_7'/><div>Traffic excess</div></label> 
+            </div>
+      <input class='submit' type='submit' value='Place a marker on this location'/>
+            <div class='resultat' style='color:red;font-family:roboto, sans-serif;'><br></div>
+            <input type='hidden' value='false' name='verif_marker'/>
+    </form>-->
+        <section>
+       <input id="pac-input" class="controls" type="text" placeholder="Search Box">
+      <div id="map"></div>
+        </section>
+
+      <script>
+      // Note: This example requires that you consent to location sharing when
+      // prompted by your browser. If you see the error "The Geolocation service
+      // failed.", it means you probably did not give permission for the browser to
+      // locate you.
+        var map, infoWindow;
+        function initAutocomplete() {
+            var map = new google.maps.Map(document.getElementById('map'), {
+                center: {lat: 37.8688, lng: -122.2195},
+                zoom: 13,
+                mapTypeId: 'roadmap'
+                });
+        // Try HTML5 geolocation.
+          if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(function(position) {
+              var pos = {
+                lat: position.coords.latitude,
+                lng: position.coords.longitude
+              };
+
+              infoWindow.setPosition(pos);
+              infoWindow.setContent('Location found.');
+              infoWindow.open(map);
+              map.setCenter(pos);
+            }, function() {
+              handleLocationError(true, infoWindow, map.getCenter());
+            });
+          } else {
+            // Browser doesn't support Geolocation
+           handleLocationError(false, infoWindow, map.getCenter());
+          }
+        }
+
+        function handleLocationError(browserHasGeolocation, infoWindow, pos) {
+          infoWindow.setPosition(pos);
+          infoWindow.setContent(browserHasGeolocation ?
+                               'Error: The Geolocation service failed.' :
+                                'Error: Your browser doesn\'t support geolocation.');
+          infoWindow.open(map);
+        }
+          
+        // Create the search box and link it to the UI element.
+        var input = document.getElementById('pac-input');
+        var searchBox = new google.maps.places.SearchBox(input);
+        map.controls[google.maps.ControlPosition.TOP_LEFT].push(input);
+
+        // Bias the SearchBox results towards current map's viewport.
+        map.addListener('bounds_changed', function() {
+          searchBox.setBounds(map.getBounds());
+        });
+
+        var markers = [];
+        // Listen for the event fired when the user selects a prediction and retrieve
+        // more details for that place.
+        searchBox.addListener('places_changed', function() {
+          var places = searchBox.getPlaces();
+
+          if (places.length == 0) {
+            return;
+          }
+
+          // Clear out the old markers.
+          markers.forEach(function(marker) {
+            marker.setMap(null);
+          });
+          markers = [];
+
+          // For each place, get the icon, name and location.
+          var bounds = new google.maps.LatLngBounds();
+          places.forEach(function(place) {
+            if (!place.geometry) {
+              console.log("Returned place contains no geometry");
+              return;
+            }
+            var icon = {
+              url: place.icon,
+              size: new google.maps.Size(71, 71),
+              origin: new google.maps.Point(0, 0),
+              anchor: new google.maps.Point(17, 34),
+              scaledSize: new google.maps.Size(25, 25)
+            };
+
+            // Create a marker for each place.
+            markers.push(new google.maps.Marker({
+              map: map,
+              icon: icon,
+              title: place.name,
+              position: place.geometry.location
+            }));
+
+            if (place.geometry.viewport) {
+              // Only geocodes have viewport.
+              bounds.union(place.geometry.viewport);
+            } else {
+              bounds.extend(place.geometry.location);
+            }
+          });
+          map.fitBounds(bounds);
+            });
+      
+      </script>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB8rJhDsfwvIod9jVTfFm1Dtv2eO4QWqxQ&callback=initMap"
+    async defer></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB8rJhDsfwvIod9jVTfFm1Dtv2eO4QWqxQ&libraries=places&callback=initAutocomplete"
+         async defer></script>
+
+      <script src="assets/js/footer.js"></script>
+    </main>
+    <script src="assets/lib/jquery/dist/jquery.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+        <script src="assets/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="assets/lib/owl.carousel/dist/owl.carousel.min.js"></script>
+        <script src="assets/js/core.js"></script>
+        <script src="assets/js/main.js"></script>
+  </body>
+</html>
