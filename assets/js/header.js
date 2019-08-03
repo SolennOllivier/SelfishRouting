@@ -8,7 +8,7 @@ document.write('<div class="znav-container znav" id="znav-container">\
                                     </div>\
                                 </div>\
                             </button>\
-                            <a class="navbar-brand overflow-hidden" href="/index.html">\
+                            <a class="navbar-brand overflow-hidden" href="index.html">\
                                 <span class="icon-Car-3" style="margin-bottom: 3px; margin-right: 5px;"></span>Selfish Routing</a>\
                             <div class="collapse navbar-collapse" id="navbarNavDropdown">\
                                 <ul class="navbar-nav ml-auto">\
