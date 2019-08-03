@@ -13,7 +13,7 @@ document.write('<div class="znav-container znav" id="znav-container">\
                             <div class="collapse navbar-collapse" id="navbarNavDropdown">\
                                 <ul class="navbar-nav ml-auto">\
                                     <li>\
-                                        <a href="/Summary_Page.html"> The Book </a>\
+                                        <a href="Summary_Page.html"> The Book </a>\
                                     </li>\
                                     <li>\
                                         <a href="javascript:void(0)">Case Studies</a>\
