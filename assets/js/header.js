@@ -50,7 +50,7 @@ document.write('<div class="znav-container znav" id="znav-container">\
                                                 <a href="Reviews.html"> Reviews </a>\
                                             </li>\
                                             <li>\
-                                                <a href="Videos/indexV.html"> Videos </a>\
+                                                <a href="/Videos/indexV.html"> Videos </a>\
                                             </li>\
                                             <li>\
                                                 <a href="#Data.html"> Data </a>\
@@ -64,7 +64,7 @@ document.write('<div class="znav-container znav" id="znav-container">\
                                         <a href="JavaScript:void(0)"> About </a>\
                                             <ul class="dropdown dropdown-push-left">\
                                             <li>\
-                                                <a href="Blog/indexB.html"> Blog </a>\
+                                                <a href="/Blog/indexB.html"> Blog </a>\
                                             </li>\
                                             <li>\
                                                 <a href="Press.html"> In the News </a>\
