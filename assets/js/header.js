@@ -22,7 +22,7 @@ document.write('<div class="znav-container znav" id="znav-container">\
                                                 <a href="Case_Studies.html">Case Studies </a>\
                                             </li>\
                                             <li>\
-                                                <a href="#Map.html"> The Map </a>\
+                                                <a href="Map.html"> The Map </a>\
                                             </li>\
                                         </ul>\
                                     </li>\
@@ -33,7 +33,7 @@ document.write('<div class="znav-container znav" id="znav-container">\
                                                 <a href="Form.html"> Send us data </a>\
                                             </li>\
                                             <li>\
-                                                <a href="#Officials-citizens.html"> Elected officials, citizens </a>\
+                                                <a href="Official-citizens.html"> Elected officials, citizens </a>\
                                             </li>\
                                             <li>\
                                                 <a href="Testimonials.html"> Testimonials </a>\
