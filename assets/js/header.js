@@ -13,16 +13,16 @@ document.write('<div class="znav-container znav" id="znav-container">\
                             <div class="collapse navbar-collapse" id="navbarNavDropdown">\
                                 <ul class="navbar-nav ml-auto">\
                                     <li>\
-                                        <a href="/Summary_Page.html"> The Book </a>\
+                                        <a href="/SelfishRouting/Summary_Page.html"> The Book </a>\
                                     </li>\
                                     <li>\
                                         <a href="javascript:void(0)">Case Studies</a>\
                                         <ul class="dropdown">\
                                             <li>\
-                                                <a href="Case_Studies.html">Case Studies </a>\
+                                                <a href="/SelfishRouting/Case_Studies.html">Case Studies </a>\
                                             </li>\
                                             <li>\
-                                                <a href="Map.html"> The Map </a>\
+                                                <a href="/SelfishRouting/Map.html"> The Map </a>\
                                             </li>\
                                         </ul>\
                                     </li>\
@@ -30,16 +30,16 @@ document.write('<div class="znav-container znav" id="znav-container">\
                                         <a href="JavaScript:void(0)"> Getting involved </a>\
                                         <ul class="dropdown">\
                                             <li>\
-                                                <a href="Form.html"> Send us data </a>\
+                                                <a href="/SelfishRouting/Form.html"> Send us data </a>\
                                             </li>\
                                             <li>\
-                                                <a href="Official-citizens.html"> Elected officials, citizens </a>\
+                                                <a href="/SelfishRouting/Official-citizens.html"> Elected officials, citizens </a>\
                                             </li>\
                                             <li>\
-                                                <a href="Testimonials.html"> Testimonials </a>\
+                                                <a href="/SelfishRouting/Testimonials.html"> Testimonials </a>\
                                             </li>\
                                             <li>\
-                                                <a href="Contact.html"> Contact </a>\
+                                                <a href="/SelfishRouting/Contact.html"> Contact </a>\
                                             </li>\
                                          </ul>\
                                     </li>\
@@ -47,16 +47,16 @@ document.write('<div class="znav-container znav" id="znav-container">\
                                         <a href="JavaScript:void(0)"> Ressources </a>\
                                         <ul class="dropdown dropdown-push-left">\
                                             <li>\
-                                                <a href="Reviews.html"> Reviews </a>\
+                                                <a href="/SelfishRouting/Reviews.html"> Reviews </a>\
                                             </li>\
                                             <li>\
                                                 <a href="/SelfishRouting/Videos/indexV.html"> Videos </a>\
                                             </li>\
                                             <li>\
-                                                <a href="Data.html"> Data </a>\
+                                                <a href="/SelfishRouting/Data.html"> Data </a>\
                                             </li>\
                                             <li>\
-                                                <a href="WazePublications.html"> Publications </a>\
+                                                <a href="/SelfishRouting/WazePublications.html"> Publications </a>\
                                             </li>\
                                         </ul>\
                                     </li>\
@@ -67,7 +67,7 @@ document.write('<div class="znav-container znav" id="znav-container">\
                                                 <a href="/SelfishRouting/Blog/indexB.html"> Blog </a>\
                                             </li>\
                                             <li>\
-                                                <a href="Press.html"> In the News </a>\
+                                                <a href="/SelfishRouting/Press.html"> In the News </a>\
                                             </li>\
                                             <li>\
                                                 <a href="JavaScript:void(0)"> Feeds </a>\
@@ -84,7 +84,7 @@ document.write('<div class="znav-container znav" id="znav-container">\
                                                     </ul>\
                                             </li>\
                                             <li>\
-                                                <a href="Book_Team.html"> Who we are </a>\
+                                                <a href="/SelfishRouting/Book_Team.html"> Who we are </a>\
                                             </li>\
                                         </ul>\
                                     </li>\
