@@ -16,10 +16,10 @@ document.write('<div class="znav-container znav" id="znav-container">\
                                         <a href="/SelfishRouting/Summary_Page.html"> The Book </a>\
                                     </li>\
                                     <li>\
-                                        <a href="javascript:void(0)">Case Studies</a>\
+                                        <a href="javascript:void(0)">See by yourself</a>\
                                         <ul class="dropdown">\
                                             <li>\
-                                                <a href="/SelfishRouting/Case_Studies.html">Case Studies </a>\
+                                                <a href="/SelfishRouting/Case_Studies.html">Real life scenarios</a>\
                                             </li>\
                                             <li>\
                                                 <a href="/SelfishRouting/Map.html"> The Map </a>\
@@ -47,7 +47,7 @@ document.write('<div class="znav-container znav" id="znav-container">\
                                         <a href="JavaScript:void(0)"> Ressources </a>\
                                         <ul class="dropdown dropdown-push-left">\
                                             <li>\
-                                                <a href="/SelfishRouting/Reviews.html"> Reviews </a>\
+                                                <a href="/SelfishRouting/WazePublications.html"> Publications </a>\
                                             </li>\
                                             <li>\
                                                 <a href="/SelfishRouting/Videos/indexV.html"> Videos </a>\
@@ -55,33 +55,19 @@ document.write('<div class="znav-container znav" id="znav-container">\
                                             <li>\
                                                 <a href="/SelfishRouting/Data.html"> Data </a>\
                                             </li>\
-                                            <li>\
-                                                <a href="/SelfishRouting/WazePublications.html"> Publications </a>\
-                                            </li>\
                                         </ul>\
                                     </li>\
                                     <li>\
                                         <a href="JavaScript:void(0)"> About </a>\
                                             <ul class="dropdown dropdown-push-left">\
                                             <li>\
+                                                <a href="/SelfishRouting/Reviews.html"> Reviews </a>\
+                                            </li>\
+                                            <li>\
                                                 <a href="/SelfishRouting/Blog/indexB.html"> Blog </a>\
                                             </li>\
                                             <li>\
                                                 <a href="/SelfishRouting/Press.html"> In the News </a>\
-                                            </li>\
-                                            <li>\
-                                                <a href="JavaScript:void(0)"> Feeds </a>\
-                                                    <ul class="dropdown dropdown-push-left">\
-                                                        <li>\
-                                                            <a href="http://www.facebook.com" target="_blank"> <span class="icon-Facebook"></span>&nbsp;Facebook </a>\
-                                                        </li>\
-                                                        <li>\
-                                                            <a href="http://www.twitter.com"  target="_blank"><span class="icon-Twitter"></span> &nbsp;Twitter </a>\
-                                                        </li>\
-                                                        <li>\
-                                                            <a href="https://www.linkedin.com/school/uc-berkeley/" target="_blank"> <span class="icon-Linkedin-2"> &nbsp;LinkedIn </span></a>\
-                                                        </li>\
-                                                    </ul>\
                                             </li>\
                                             <li>\
                                                 <a href="/SelfishRouting/Book_Team.html"> Who we are </a>\
