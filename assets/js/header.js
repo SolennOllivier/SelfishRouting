@@ -33,7 +33,7 @@ document.write('<div class="znav-container znav" id="znav-container">\
                                                 <a href="/SelfishRouting/Form.html"> Send us data </a>\
                                             </li>\
                                             <li>\
-                                                <a href="/SelfishRouting/Official-citizens.html"> Elected officials, citizens </a>\
+                                                <a href="/SelfishRouting/Official-citizens.html"> Elected officials </a>\
                                             </li>\
                                             <li>\
                                                 <a href="/SelfishRouting/Testimonials.html"> Testimonials </a>\
