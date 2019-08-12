@@ -6,10 +6,10 @@ document.write('<footer class="background-1 color-8 py-3 fs--1 fw-600 font-headi
                                 <a class="p-2 color-8"  target="_blank" href="https://twitter.com/BerkeleyMsl">\
                                     <i class="fa fa-twitter"></i>\
                                 </a>\
-                                <a class="p-2 color-8"  target="_blank" href="https://facebook.com">\
+                                <a class="p-2 color-8"  target="_blank" href="https://www.facebook.com/ITSBerkeley/">\
                                     <i class="fa fa-facebook"></i>\
                                 </a>\
-                                <a class="p-2 color-8"  target="_blank" href="https://linkedin.com">\
+                                <a class="p-2 color-8"  target="_blank" href="https://www.linkedin.com/in/alexandre-bayen-8479598/">\
                                     <i class="fa fa-linkedin"></i>\
                                 </a>\
                                 <a class="p-2 color-8"  target="_blank" href="mailto:bayen@berkeley.edu">\
