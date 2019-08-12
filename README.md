@@ -1,2 +1,2 @@
-# flow-project.github.io
-The website for Flow, a project developed at UC Berkeley.
+# Selfish Routing
+The book website developed at UC Berkeley.
