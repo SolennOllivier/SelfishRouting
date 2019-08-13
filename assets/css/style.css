@@ -7205,7 +7205,8 @@ h1, h2, h3, h4, h5, h6 {
         background:#69CDF6;
         color:white;
     }
-                                           .modal {
+
+  .modal {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
