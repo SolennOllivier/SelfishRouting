@@ -12,25 +12,25 @@ document.write('<div class="ui styled fluid accordion">\
                                     <i class="dropdown icon"></i> Extending traffic planning models to traffic control</div>\
                                 <div class="content active">\
                                     <p class="transition hidden">\
-                                        <a href="#Chapt.html"> Traffic demand modeling for traffic control </a>\
+                                        <a href="/SelfishRouting/Chapters/TrafficDemand.html"> Traffic demand modeling for traffic control </a>\
                                         <br>\
-                                        <a href="#chap.html"> Routing behavior modeling</a>\
+                                        <a href="/SelfishRouting/Chapters/RoutingBehavior.html"> Routing behavior modeling</a>\
                                         <br>\
-                                        <a href="#chapt.html"> Dynamic traffic assignment</a>\
+                                        <a href="/SelfishRouting/Chapters/DynamicTraffic.html"> Dynamic traffic assignment</a>\
                                         <br>\
-                                        <a href="#Chapt"> Simulators for traffic and land use</a>\
+                                        <a href="/SelfishRouting/Chapters/Simulators.html"> Simulators for traffic and land use</a>\
                                         <br>\
-                                        <a href="#chap.html"> Traffic nowcast (estimation) and forecast (prediction)</a>\
+                                        <a href="/SelfishRouting/Chapters/TrafficDemand.html"> Traffic nowcast (estimation) and forecast (prediction)</a>\
                                         <br>\
-                                        <a href="#chap.html"> Empty Chapt?</a>\
+                                        <a href="/SelfishRouting/Chapters/TrafficDemand.html"> Empty Chapt?</a>\
                                         <br>\
-                                        <a href="#chap.html"> Impact analysis</a>\
+                                        <a href="/SelfishRouting/Chapters/ImpactAnalysis.html"> Impact analysis</a>\
                                         <br>\
-                                        <a href="#chap.html">Policies to solve the Waze problem</a>\
+                                        <a href="/SelfishRouting/Chapters/PoliciesToSolve.html">Policies to solve the Waze problem</a>\
                                         <br>\
-                                        <a href="#chap.html"> Pricing policies</a>\
+                                        <a href="/SelfishRouting/Chapters/PricingPolicies.html"> Pricing policies</a>\
                                         <br>\
-                                        <a href="#chap.html"> Cyber-physical Systems-enhanced Traffic Management: A proof of Concept</a>\
+                                        <a href="/SelfishRouting/Chapters/CyberPhysical.html"> Cyber-physical Systems-enhanced Traffic Management: A proof of Concept</a>\
                                         <br>\
                                         </p>\
                                 </div>\
@@ -38,11 +38,11 @@ document.write('<div class="ui styled fluid accordion">\
                                     <i class="dropdown icon"></i> The way forward and recommendations </div>\
                                 <div class="content">\
                                     <p class="transition hidden">\
-                                        <a href="#chapt.html"> Toward metropolitan scale management traffic</a>\
+                                        <a href="/SelfishRouting/Chapters/TowardMetropolitan.html"> Toward metropolitan scale management traffic</a>\
                                         <br>\
-                                        <a href="#hpat.html"> Recommendations </a>\
+                                        <a href="/SelfishRouting/Chapters/Recommendations.html"> Recommendations </a>\
                                         <br>\
-                                        <a href="#chap.html">Conclusion and Future</a>\
+                                        <a href="/SelfishRouting/Chapters/ConclusionFuture.html">Conclusion and Future</a>\
                                         </p>\
                                 </div>\
                             </div>');
