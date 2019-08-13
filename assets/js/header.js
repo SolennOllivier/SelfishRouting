@@ -24,6 +24,9 @@ document.write('<div class="znav-container znav" id="znav-container">\
                                             <li>\
                                                 <a href="/SelfishRouting/Map.html"> The Map </a>\
                                             </li>\
+                                            <li>\
+                                                <a href="/SelfishRouting/Humor.html"> Better laugh </a>\
+                                            </li>\
                                         </ul>\
                                     </li>\
                                     <li>\
