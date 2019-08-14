@@ -2848,18 +2848,18 @@ input[type='file'] {
 }
 
 .table > thead > tr > th {
-  border-bottom: 1px solid #e1e1e1;
+  border-bottom: none;
 }
 
 .table {
   margin-bottom: 4rem;
-  border: 1px solid #e1e1e1;
+  border: none;
   background-color: #fff;
-  border-radius: 3px;
+  border-radius: 0px;
 }
 
 .table tbody tr:not(:first-child) {
-  border-top: 1px solid #e1e1e1;
+  border-top: none;
 }
 
 .table th, .table td {

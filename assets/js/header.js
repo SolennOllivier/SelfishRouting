@@ -24,9 +24,6 @@ document.write('<div class="znav-container znav" id="znav-container">\
                                             <li>\
                                                 <a href="/SelfishRouting/Map.html"> The Map </a>\
                                             </li>\
-                                            <li>\
-                                                <a href="/SelfishRouting/Humor.html"> Better laugh </a>\
-                                            </li>\
                                         </ul>\
                                     </li>\
                                     <li>\
@@ -57,6 +54,9 @@ document.write('<div class="znav-container znav" id="znav-container">\
                                             </li>\
                                             <li>\
                                                 <a href="/SelfishRouting/Data.html"> Data </a>\
+                                            </li>\
+                                            <li>\
+                                                <a href="/SelfishRouting/Humor.html"> Humor </a>\
                                             </li>\
                                         </ul>\
                                     </li>\
