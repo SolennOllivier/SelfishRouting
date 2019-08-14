@@ -47,3 +47,4 @@ $('#add_photograph').click(function(){
         $(this).css('display','none');
     }
 });
+
