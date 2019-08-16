@@ -29,14 +29,18 @@
         <!-- Main stylesheet and color file-->
         <link href="assets/css/style.css" rel="stylesheet">
         <link href="assets/css/custom.css" rel="stylesheet"> 
+        <link href="assets/lib/flexslider/flexslider.css" rel="stylesheet"/>
+
     <link href="assets/lib/owl.carousel/dist/assets/owl.carousel.min.css" rel="stylesheet">
 <link href="assets/lib/owl.carousel/dist/assets/owl.theme.default.min.css" rel="stylesheet">
+        <script src="assets/js/header.js"></script>
     
     </head>
     
     <body data-spy="scroll" data-target=".inner-link" data-offset="60">
+                
         <main>
-            <script src="assets/js/header.js"></script>
+            
             
             <section class="color-white text-center p-0 has-parallax">
                 <div class="background-holder overlay overlay-2 parallax h-100vh" style="background-image:url(assets/images/background/TrafficJam-Grey.png);" data-rellax-speed="-10"> </div>
@@ -48,8 +52,12 @@
                             <br/>
                             <br/>
                             <h1 class="fs-sm-4">A way to discover </h1>
-                            <span class="fs-4 font-1 typed-text fw-600 color-info" data-typed-text='["the app-induced deterioration of urban road mobility ", "the way forward and recommendations"]'></span>
-                            
+                            <h2 class="color-info quotes">the app-induced deterioration of urban road mobility</h2>
+                            <h2 class="color-info quotes">the way forward and recommendations</h2>
+                            <!--<span class="fs-4 font-1 typed-text fw-600 color-info" data-typed-text='["the app-induced deterioration of urban road mobility ", "the way forward and recommendations"]'></span>-->
+                           
+                          
+       
 <!--                            <h3 class="text-center color-10 fs-2 mb-5 fw-300 px-6">Developed</h3>-->
                             <div class="row justify-content-center font-1 align-items-center">
                                 <div class="col-5 col-xl-4 text-right">
@@ -64,6 +72,13 @@
                                 </div>
                             </div> 
                             <a class=" btn-icon btn-icon-left btn btn-outline-info btn-sm-lg mt-5 text-uppercase ls" href="#start"> <span class="icon-Car-3"></span>Explore</a>
+                            <a href="https://twitter.com/alexandrebayen" target="_blank" class="btn btn-icon btn-outline-info btn-icon-left btn-sm-lg mt-5 text-uppercase ls">
+	                                       <span class="fa fa-twitter"></span>Twitter&nbsp;&nbsp;
+                            </a>
+                                        
+                         <a href="https://www.facebook.com/ITSBerkeley/" target="_blank" class="btn btn-icon btn-outline-primary btn-icon-left btn-sm-lg mt-5 text-uppercase ls">
+	                                       <span class="fa fa-facebook-f"></span>Facebook
+                         </a>
                         </div>
                         <!--/.col-*-->
                     </div>
@@ -83,7 +98,7 @@
                         <!--<h4 class="text-center fs-1 mb-5 fw-300 px-6">Developed by UC Berkeley</h4>-->
                         <hr class="short mb-2 color-8"/>
                         <div class="row">
-                        <div class="col-lg-4 px-6 pt-5 mb-5 mb-lg-0">
+                        <div class="col-lg-4 px-6 pt-5 mb-5 mb-lg-0"><a href=Summary_Page.html>
                             <style> #framex {
                                     border-width: 1px;
                                     width: 20rem;
@@ -96,24 +111,24 @@
                             <h5 class="fw-400 my-3 color-info">The Book</h5>
                             <p class="mb-0 color-5 fw-300">Our book is here to help you understand the issue and give you some of the solutions. On this website, you can have a look at the Summary Page and discover some of the chapters.</p>
                             <a class="btn btn-link fw-400" href="Summary_Page.html">Get started &rarr;</a>
-                            </div>
+                            </div></a>
                         </div>
-                        <div class="col-lg-4 px-6 pt-5 mb-5 mb-lg-0" > 
+                        <div class="col-lg-4 px-6 pt-5 mb-5 mb-lg-0" > <a href=Case_Studies.html>
                             
                             <div class="border color-info radius-primary pr-4 pl-4 pt-4 pb-5" id="framex">
                             <span class="icon-File-Search color-info fs-4" ></span>
                             <h5 class="fw-400 my-3 color-info">Case studies</h5>
                             <p class="mb-0 color-5 fw-300">We focused on issues in different location to have a deeper understanding of how selfish routing impacts traffic and how apps algorithms calculate the itineraries. </p>
                             <a class="btn btn-link fw-400" href="Case_Studies.html">Have a look &rarr;</a>
-                            </div>
+                            </div></a>
                         </div>
-                        <div class="col-lg-4 px-6 pt-5 mb-5 mb-lg-0 " >
+                        <div class="col-lg-4 px-6 pt-5 mb-5 mb-lg-0 " ><a href=Map.html>
                             <div class="border color-info radius-primary pl-4 pr-4 pt-4 pb-5" id="framex">
                             <span class="icon-Map2 color-info fs-4"></span>
                             <h5 class="fw-400 my-3 color-info">The map</h5>
                             <p class="mb-0 color-5 fw-300">The best way to understand the extent of those concerns is to discover "The Map". It has been designed to record where traffic got worse in the different locations.  </p>
                             <a class="btn btn-link fw-400" href="Map.html">Find out now &rarr;</a>
-                            </div>
+                            </div></a>
                         </div>
                         
                     </div>
@@ -123,10 +138,8 @@
                 </div>
                 <!--/.container-->
             </section>
-           
-            
-            <section class="color-white text-center has-parallax" id="header-video">
-                <div class="background-holder overlay overlay-2 parallax h-100vh" style="background-image:url(assets/images/background/Busy-Freeway-Pic.png); transform: translate3d(0px, -48.8px, 0px);" data-rellax-speed="-10">
+           <section class="color-white text-center has-parallax" id="header-video">
+                <div class="background-holder overlay overlay-2 parallax h-100vh" style="background-image:url(assets/images/background/Busy-Freeway-Pic.png); " data-rellax-speed="-10">
                     <video autoplay="autoplay" loop="loop" muted="muted">
                         <!--/.Changer la video busy freeway-->
                         <source src="assets/images/background/Busy-Freeway.mp4" type="video/mp4"/>
@@ -140,79 +153,32 @@
                            <a class=" btn-icon btn-icon-left btn btn-outline-info btn-sm-lg mt-5 text-uppercase ls" href="NewMap.html"> <span class="icon-Map"> </span> Discover !</a> 
             </section>
             
-             
-              <section class="background-11 py-0">
-                <div class="container-fluid pt-4 pb-4">
-                    <div class="row align-items-center">
-                        <div class="col-6  text-center font-1 py-5">
-                            <p class="fs--2 mb-3">#SelfishRouting</p>
-                            <h4 class="fs-3">STAY IN THE LOOP <br> <br>
-                                Follow us on social medias</h4>
-                            <a class="p-2 color-1 fs-3 mt-3" href="https://www.facebook.com/SelfishRouting/">
-                                <i class="icon-Facebook"></i>
-                            </a>
-                            <a class="p-2 color-1 fs-3 mt-3 ml-4" href="https://twitter.com/RoutingSelfish">
-                                <span class="icon-Twitter"></span>
-                            </a>
-                            
-                            <br>
-                            
-                        </div>
-                        <div class="col-4 ml-6" style="height: 100%; width: 75%">
-                            
-                 <a class="twitter-timeline h-100" data-lang="en" data-link-color="#6dd5ff" href="https://twitter.com/RoutingSelfish?ref_src=twsrc%5Etfw">Tweets by RoutingSelfish</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                        </div>
-                    </div>
-                    <!--/.row-->
-                </div>
-                <!--/.container-->
-            </section> 
-                
-                           
             
-            
-            
-            <!-- 
             <section>       
                 <div class="text-center">
-                    <h3 class="color-1 mb-4">Flow in press</h3>
-                    <div data-dots="true" data-nav="true" data-items='{"0":{"items":1},"600":{"items":1}}' data-autoplay="true" data-margin="3000" data-loop="true" class="owl-carousel owl-theme owl-nav-outer owl-dot-round">
+                    <h3 class="color-1 mb-4">Relevant videos</h3>
+                                                <hr class="short mb-4 color-8 mt-4"> 
+
+                    <div data-dots="true" data-nav="true" data-items='{"0":{"items":1},"600":{"items":1}}' data-autoplay="false" data-margin="3000" data-loop="true" class="owl-carousel owl-theme owl-nav-outer owl-dot-round">
                         <div class="item">
-                            <blockquote class="blockquote my-5 font-2">
-                               <p class="fs-2 color-4 lh-2 font-italic">Just a few self driving cars on the road could improve traffic for everyone.</p>
-                               <footer class="blockquote-footer">abc7 NEWS    <a class="ml-8"  href="https://abc7news.com/traffic/just-a-few-self-driving-cars-on-the-road-could-improve-traffic-for-everyone/4703982/" target="_blank">read more</a></footer>
-                                
-                            </blockquote>
+                                <iframe  width="500" height="400" src="https://www.youtube.com/embed/_fbz0QjTE58?start=73" align="center" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen >
+                              </iframe>
                         </div>
                         <div class="item">
-                            <blockquote class="blockquote my-5 font-2">
-                               <p class="fs-2 color-4 lh-2 font-italic">Drivers can learn this from AI: "keep your distance and break less.... That's smart driving!"</p>
-                               <footer class="blockquote-footer">Science Magazine    <a href="http://www.sciencemag.org/news/2018/11/watch-just-few-self-driving-cars-stop-traffic-jams" target="_blank" class="ml-8">read more</a></footer>
-                                
-                            </blockquote>
+                            <iframe  width="700" height="400" src="https://www.youtube.com/embed/_fbz0QjTE58?start=73" align="center" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen >
+                              </iframe>
                         </div>
                         <div class="item">
-                            <blockquote class="blockquote my-5 font-2">
-                               <p class="fs-2 color-4 lh-2 font-italic">Flow is a first-of-its-kind software framework allowing researchers to discover and benchmark schemes for optimizing traffic.</p>
-                               <footer class="blockquote-footer">Lawrence Berkeley National Laboratory    <a href="https://newscenter.lbl.gov/2018/10/28/machine-learning-to-help-optimize-traffic-and-reduce-pollution/?utm_source=twitter&utm_medium=social&utm_campaign=socialwarfare" target="_blank" class="ml-8">read more</a></footer>
-                                
-                            </blockquote>
+                            <iframe  width="700" height="400" src="https://www.youtube.com/embed/_fbz0QjTE58?start=73" align="center" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen >
+                              </iframe>
                         </div>
                     
                             
 	               </div>
                 </div>
-            </section> -->
-<!--
-            <section>       
-                    <div class="text-center">
-                        <h3 class="color-1 mb-4">Meet the team</h3>
-                         <a class="btn btn-warning" href="team.html"> Team</a> 
-                         </div>
             </section>
-            
--->
-            
+     
+
             
             <hr class="my-0">
             <script src="assets/js/footer.js"></script>
@@ -230,6 +196,24 @@
         <script src="assets/js/main.js"></script>
         <script src="assets/lib/typed.js/dist/typed.min.js"></script>
         <script src="assets/lib/owl.carousel/dist/owl.carousel.min.js"></script>
-        
+        <script src="assets/lib/flexslider/jquery.flexslider.js"></script>
+ <script>
+// code gets installed at the end of the body (after all other HTML)
+(function() {
+
+    var quotes = $(".quotes");
+    var quoteIndex = -1;
+
+    function showNextQuote() {
+        ++quoteIndex;
+        quotes.eq(quoteIndex % quotes.length)
+            .fadeIn(2000)
+            .delay(2000)
+            .fadeOut(2000, showNextQuote);
+    }
+
+    showNextQuote();
+
+})();</script>
     </body>
 </html>

@@ -1,6 +1,6 @@
-document.write('<div class="znav-container znav" id="znav-container">\
+document.write('<div class="znav-container znav " id="znav-container">\
                     <div class="container">\
-                        <nav class="navbar navbar-toggleable-md">\
+                        <nav class="navbar navbar-toggleable-md sticky-top">\
                             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">\
                                 <div class="hamburger hamburger--emphatic">\
                                     <div class="hamburger-box">\
@@ -16,13 +16,30 @@ document.write('<div class="znav-container znav" id="znav-container">\
                                         <a href="/SelfishRouting/Summary_Page.html"> The Book </a>\
                                     </li>\
                                     <li>\
-                                        <a href="javascript:void(0)">See by yourself</a>\
+                                        <a href="javascript:void(0)">Explore</a>\
                                         <ul class="dropdown">\
                                             <li>\
-                                                <a href="/SelfishRouting/Case_Studies.html">Real life scenarios</a>\
+                                                <a href="/SelfishRouting/Case_Studies.html">Stories</a>\
                                             </li>\
                                             <li>\
                                                 <a href="/SelfishRouting/Map.html"> The Map </a>\
+                                            </li>\
+                                        </ul>\
+                                    </li>\
+                                    <li>\
+                                        <a href="JavaScript:void(0)"> Ressources </a>\
+                                        <ul class="dropdown dropdown-push-left">\
+                                            <li>\
+                                                <a href="/SelfishRouting/Videos/indexV.html"> Videos </a>\
+                                            </li>\
+                                            <li>\
+                                                <a href="/SelfishRouting/WazePublications.html"> Publications </a>\
+                                            </li>\
+                                            <li>\
+                                                <a href="/SelfishRouting/Data.html"> Data </a>\
+                                            </li>\
+                                            <li>\
+                                                <a href="/SelfishRouting/Humor.html"> Terrific Traffic News </a>\
                                             </li>\
                                         </ul>\
                                     </li>\
@@ -42,23 +59,6 @@ document.write('<div class="znav-container znav" id="znav-container">\
                                                 <a href="/SelfishRouting/Contact.html"> Contact </a>\
                                             </li>\
                                          </ul>\
-                                    </li>\
-                                    <li>\
-                                        <a href="JavaScript:void(0)"> Ressources </a>\
-                                        <ul class="dropdown dropdown-push-left">\
-                                            <li>\
-                                                <a href="/SelfishRouting/WazePublications.html"> Publications </a>\
-                                            </li>\
-                                            <li>\
-                                                <a href="/SelfishRouting/Videos/indexV.html"> Videos </a>\
-                                            </li>\
-                                            <li>\
-                                                <a href="/SelfishRouting/Data.html"> Data </a>\
-                                            </li>\
-                                            <li>\
-                                                <a href="/SelfishRouting/Humor.html"> Humor </a>\
-                                            </li>\
-                                        </ul>\
                                     </li>\
                                     <li>\
                                         <a href="JavaScript:void(0)"> About </a>\
